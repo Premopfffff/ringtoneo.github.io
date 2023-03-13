@@ -1,0 +1,272 @@
+.bbb {
+  width: 350px;
+  height: auto;
+  border: 5px solid black;
+  margin: 10px 0;
+}
+
+.bbb::-webkit-media-controls-panel {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.bbb::-webkit-media-controls-play-button {
+  display: none;
+}
+
+.bbb::-webkit-media-controls-start-playback-button {
+  display: none;
+}
+
+.bbb::-webkit-media-controls-volume-slider-container {
+  display: none;
+}
+
+.bbb::-webkit-media-controls-mute-button {
+  display: none;
+}
+
+.bbb::-webkit-media-controls-timeline-container {
+  height: 5px;
+  margin: 5px 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+}
+
+.bbb::-webkit-media-controls-current-time-display {
+  display: none;
+}
+
+.bbb::-webkit-media-controls-time-remaining-display {
+  display: none;
+}
+
+.bbb::-webkit-media-controls-timeline {
+  height: 5px;
+  background-color: black;
+  border-radius: 5px;
+}
+
+.bbb::-webkit-media-controls-fullscreen-button {
+  display: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  background-color: greenyellow;
+  height: 80px;
+  width: 100%;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+nav ul li {
+  margin-right: 1px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 12px 14px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  nav ul {
+    flex-wrap: wrap;
+  }
+
+  nav ul li {
+    flex-grow: 1;
+    text-align: center;
+  }
+}
+
+#hf {
+  height: 100%;
+  width: 360px;
+  text-align: center;
+  color: black;
+  background: yellow;
+  
+}
+
+#searchInput {
+  width: 340px;
+  max-width: 400px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: #f1f1f1;
+  font-size: 16px;
+  color: #333;
+  outline: none;
+}
+
+#searchInput::placeholder {
+  color: #aaa;
+}
+
+
+.bbb {
+  width: 350px;
+  height: auto;
+  border: 5px solid black;
+  margin: 10px 0;
+}
+
+.bbb::-webkit-media-controls-panel {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.bbb::-webkit-media-controls-play-button {
+  display: none;
+}
+
+.bbb::-webkit-media-controls-start-playback-button {
+  display: none;
+}
+
+.bbb::-webkit-media-controls-volume-slider-container {
+  display: none;
+}
+
+.bbb::-webkit-media-controls-mute-button {
+  display: none;
+}
+
+.bbb::-webkit-media-controls-timeline-container {
+  height: 5px;
+  margin: 5px 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+}
+
+.bbb::-webkit-media-controls-current-time-display {
+  display: none;
+}
+
+.bbb::-webkit-media-controls-time-remaining-display {
+  display: none;
+}
+
+.bbb::-webkit-media-controls-timeline {
+  height: 5px;
+  background-color: black;
+  border-radius: 5px;
+}
+
+.bbb::-webkit-media-controls-fullscreen-button {
+  display: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  background-color: greenyellow;
+  height: 80px;
+  width: 100%;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+nav ul li {
+  margin-right: 1px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 12px 14px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  nav ul {
+    flex-wrap: wrap;
+  }
+
+  nav ul li {
+    flex-grow: 1;
+    text-align: center;
+  }
+}
+
+#hf {
+  height: 100%;
+  width: 360px;
+  text-align: center;
+  color: black;
+  background: yellow;
+}
+
+#searchInput {
+  width: 340px;
+  max-width: 400px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: #f1f1f1;
+  font-size: 16px;
+  color: #333;
+  outline: none;
+}
+
+#searchInput::placeholder {
+  color: #aaa;
+}
+
+
+
+
+
+
+#name {
+  padding: 10px;
+  font-size: 50px;
+  
+  
+}
+
+.x {
+  
+  display: none;
+}
